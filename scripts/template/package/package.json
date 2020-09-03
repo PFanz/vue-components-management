@@ -1,0 +1,11 @@
+{
+  "name": "<%= publishPackageName %>",
+  "version": "0.0.1",
+  "description": "<%= packageDesc %>",
+  "main": "./dist/<%= publishNamespace %>-<%= packageName %>.umd.min.js",
+  "keywords": [
+    "<%= packageName %>"
+  ],
+  "author": "author name",
+  "license": "ISC"
+}

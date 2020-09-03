@@ -1,0 +1,10 @@
+{
+  "version": "independent",
+  "packages": ["packages/*"],
+  "command": {
+    "publish": {
+      "ignoreChanges": ["src/*", "examples/*", "*.md"],
+      "message": "chore(release): publish"
+    }
+  }
+}

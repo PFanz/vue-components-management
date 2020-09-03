@@ -1,0 +1,25 @@
+<template>
+  <div>
+    <h1>
+      <%= publishPackageName %> demo
+    </h1>
+  </div>
+</template>
+<script>
+import * as <%= packageNameByCamelCase %> from "../../packages/${packageName}/src/index";
+
+export default {
+  components: {},
+  data() {
+    return {};
+  },
+  created() {
+    console.log(<%= packageNameByCamelCase %>);
+  },
+  mounted() {
+  },
+  methods: {
+
+  }
+};
+</script>

@@ -1,0 +1,11 @@
+{
+  "name": "@namespace/test-vue",
+  "version": "0.0.1",
+  "description": "test-vue",
+  "main": "./dist/namespace-test-vue.umd.min.js",
+  "keywords": [
+    "test-vue"
+  ],
+  "author": "author name",
+  "license": "ISC"
+}
